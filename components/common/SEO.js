@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import ReactHtmlParser from "react-html-parser";
+import ReactHtmlParser from "html-react-parser";
 
 const SEO = ({ title, description, keywords, ogImage, metaHTML }) => {
   // setup and parse additional header markup
