@@ -1,9 +1,4 @@
 import React from "react";
-import { FaTwitter, FaInstagram, FaSlack, FaYoutube } from "react-icons/fa";
-
-/**
- * This footer is not part of the content in the CMS, feel free to remove this for production use.
- */
 
 const SiteFooter = ({ globalData }) => {
 
