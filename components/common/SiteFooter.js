@@ -5,7 +5,7 @@ const SiteFooter = ({ globalData }) => {
   const { copyright } = globalData.footer;
 
   return (
-    <footer>
+    <footer className="flex bg-blue-dark">
       {copyright && <p>{copyright}</p>}
     </footer>
   );

@@ -1,4 +1,5 @@
 import '../styles/globals.scss';
+import '../styles/tailwind.css';
 
 import useAuth from '../utils/hooks/useAuth';
 
