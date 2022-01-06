@@ -37,6 +37,9 @@ export default function useAuth() {
     accessToken: null,
     profile: null,
   });
+
+  console.log("useAuth()");
+  
   const query = useQuery();
 
   async function exchangeCode() {
